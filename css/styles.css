@@ -1,0 +1,120 @@
+body {
+    padding: 0 80px;
+    margin: 0;
+  
+    display: grid;
+    grid-template-columns: repeat(24, 1fr);
+  
+    background-color: #000;
+    color: white;
+  
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  button{
+    cursor: pointer;
+  }
+  
+  body .menu-principal {
+    grid-column: 1/6;
+    border-right: solid;
+    border-color: rgb(139, 139, 139);
+    border-width: 0.5px;
+    padding: 0 10px 0 0;
+  }
+  body .menu-principal nav{
+    position: fixed;
+    height: 100%;
+  }
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    padding: 5px;
+    font-size: 1.4rem;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    max-width: fit-content;
+  
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin: 0;
+  }
+  
+  nav ul li a box-icon {
+    margin-right: 20px;
+  }
+  
+  nav ul li a:hover {
+    background-color: #121212;
+  }
+  
+  nav button {
+    border: none;
+    border-radius: 20px;
+    padding: 10px 60px;
+    width: 200px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-weight: 600;
+    background-color: rgb(33, 124, 235);
+    color: white;
+    margin-top: 30px;
+  }
+  
+  nav button:hover {
+    background-color: rgb(30, 113, 214);
+  }
+  
+  .btn-perfil {
+    position: absolute;
+    bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 250px;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 36px;
+  }
+  
+  .btn-perfil:hover {
+    background-color: #121212;
+    cursor: pointer;
+  }
+  
+  .btn-perfil .user-profile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .btn-perfil .user-profile img {
+    width: 36px;
+    height: 36px;
+    border-radius: 100%;
+  }
+  
+  .btn-perfil .user-profile p {
+    margin: 0;
+  }
+  
+  .btn-perfil .user-profile .user-name {
+    font-weight: 600;
+  }
+  
+  .btn-perfil .user-profile .user-id {
+    font-weight: 300;
+  }
