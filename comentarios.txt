@@ -1,0 +1,12 @@
+Estoy muy feliz con lo logrado, creo que el gran avance personal
+en este proyecto es el hecho de que salí de mi zona de confort,
+pude acercarme y conocer más a mis compañeros. 
+
+Pude aplicar una combinación de tecnologías, había hecho algunas
+prácticas de frontend mentor, pero nunca había intentado realizar
+el clon de una página e ir haciendo cambios atómicos conforme fui
+trabajando. 
+
+Algo que puedo mejorar es intentar optimizar la manera en que trabajo, 
+y las técnicas que ocupo, al igual que no olvidar hacer commits cada vez
+que termino un cambio importante. 
